@@ -1,0 +1,10 @@
+infoblox_networks:
+- name: test_namespace egress
+  network: 1.1.0.0
+  cidr: 23
+- name: test_namespace ingress
+  network: 1.2.0.0
+  cidr: 23
+- name: test_namespace namespace
+  network: 1.3.0.0
+  cidr: 23
